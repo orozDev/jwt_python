@@ -56,7 +56,7 @@ class Jwt:
         ).hexdigest()
 
         if not hmac.compare_digest(signature, signature_check):
-            raise ValueError("The signature is invalid")
+            raise ValueError('The signature is invalid')
 
         return payload, header
 
