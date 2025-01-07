@@ -1,0 +1,114 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="851" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="35">
+            <item index="0" class="java.lang.String" itemvalue="django-ckeditor" />
+            <item index="1" class="java.lang.String" itemvalue="django-cleanup" />
+            <item index="2" class="java.lang.String" itemvalue="phonenumbers" />
+            <item index="3" class="java.lang.String" itemvalue="drf-yasg" />
+            <item index="4" class="java.lang.String" itemvalue="django-filter" />
+            <item index="5" class="java.lang.String" itemvalue="django-resized" />
+            <item index="6" class="java.lang.String" itemvalue="python-decouple" />
+            <item index="7" class="java.lang.String" itemvalue="django-jazzmin" />
+            <item index="8" class="java.lang.String" itemvalue="django-rest-registration" />
+            <item index="9" class="java.lang.String" itemvalue="django-phonenumber-field" />
+            <item index="10" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="11" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="12" class="java.lang.String" itemvalue="Pillow" />
+            <item index="13" class="java.lang.String" itemvalue="Crypto" />
+            <item index="14" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="15" class="java.lang.String" itemvalue="drf-writable-nested" />
+            <item index="16" class="java.lang.String" itemvalue="django-modeltranslation" />
+            <item index="17" class="java.lang.String" itemvalue="Django" />
+            <item index="18" class="java.lang.String" itemvalue="pillow" />
+            <item index="19" class="java.lang.String" itemvalue="asgiref" />
+            <item index="20" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="21" class="java.lang.String" itemvalue="uritemplate" />
+            <item index="22" class="java.lang.String" itemvalue="six" />
+            <item index="23" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="24" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="25" class="java.lang.String" itemvalue="tzdata" />
+            <item index="26" class="java.lang.String" itemvalue="packaging" />
+            <item index="27" class="java.lang.String" itemvalue="setuptools" />
+            <item index="28" class="java.lang.String" itemvalue="numpy" />
+            <item index="29" class="java.lang.String" itemvalue="pandas" />
+            <item index="30" class="java.lang.String" itemvalue="django-js-asset" />
+            <item index="31" class="java.lang.String" itemvalue="pytz" />
+            <item index="32" class="java.lang.String" itemvalue="inflection" />
+            <item index="33" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="34" class="java.lang.String" itemvalue="phonenumberslite" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django_resized.forms.ResizedImageField.url" />
+          <option value="object.get_serializer" />
+          <option value="object.get_serializer_class" />
+          <option value="api.mixins.SerializeByActionMixin.action" />
+          <option value="super.get_permissions" />
+          <option value="object.get_permissions" />
+          <option value="api.mixins.PermissionByActionMixin.action" />
+          <option value="object.get_queryset" />
+          <option value="api.mixins.QuerySetByUserMixin.request" />
+          <option value="object.to_representation" />
+          <option value="api.product.serializers.ProductCommentPayloadMixin.context" />
+          <option value="api.mixins.SerializerByMethodMixin.get_serializer_context" />
+          <option value="api.mixins.SerializerByMethodMixin.request" />
+          <option value="api.mixins.PaginationBreaker.get_queryset" />
+          <option value="object.list" />
+          <option value="api.mixins.PaginationBreaker.get_serializer" />
+          <option value="api.paginations.IncludeItemMixin.get_next_link" />
+          <option value="api.paginations.IncludeItemMixin.get_previous_link" />
+          <option value="api.paginations.IncludeItemMixin.page" />
+          <option value="object.paginate_queryset" />
+          <option value="apps.core.admin.PartnerGroup" />
+          <option value="api.mixins.PermissionByActionMixin.permission_classes" />
+          <option value="api.mixins.PermissionByMethod.request" />
+          <option value="api.mixins.PermissionByMethod.permission_classes" />
+          <option value="api.mixins.SerializersByActionMixin.serializer_class" />
+          <option value="api.mixins.SerializersByActionMixin.action" />
+          <option value="api.mixins.MultipleDestroyMixin.get_serializer" />
+          <option value="api.mixins.MultipleDestroyMixin.get_queryset" />
+          <option value="api.mixins.PaginationBreakerMixin.get_queryset" />
+          <option value="api.mixins.PaginationBreakerMixin.get_serializer" />
+          <option value="api.mixins.DetailResponse.get_object" />
+          <option value="api.mixins.DetailResponse.get_serializer" />
+          <option value="api.mixins.DestroyModelMixin.get_object" />
+          <option value="django.db" />
+          <option value="api.mixins.MultipleDestroyMixin.request" />
+          <option value="api.mixins.ModifiedResponseMixin.get_serializer" />
+          <option value="api.mixins.ModifiedResponseMixin.perform_create" />
+          <option value="api.mixins.ModifiedResponseMixin.get_success_headers" />
+          <option value="api.mixins.ModifiedResponseMixin.get_object" />
+          <option value="api.mixins.ModifiedResponseMixin.perform_update" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
